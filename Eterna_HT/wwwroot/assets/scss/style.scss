@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   #topbar{
+    width: 100%;
+    height: 40px;
+    background-color: #545454;
+    color: white;
+   
+    
+       .topcon{
+           line-height: 40px;
+          
+           .row{
+               .progress-info{
+                 
+                   
+                   ul{
+                    padding: 0;
+                    margin: 0;
+                    
+                    display: flex;
+                    
+                    gap: 20px;
+                       li{
+                        
+                           margin: 0;
+                           list-style: none;
+                           i{
+                               color: #E96B56;
+                           }
+                          a{
+                            text-decoration: none;
+                            color: white;
+                          }
+                       }
+                   }
+               }
+               .progress-infotwo{
+               
+                   ul{
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: end;
+                    gap: 20px;
+                    li{
+                      
+                        margin: 0;
+                        list-style: none;
+                        i{
+                            color: #BABABA;
+                        }
+                    
+                    }
+                }
+               }
+           }
+       }
+   }
+   #navbar{
+       width: 100%;
+       height: 80px;
+       background-color:#fff;
+       display: flex;
+     
+
+     .container{
+        align-items: center;
+        .line{
+            display: flex;
+         .logo{
+              h2{
+                    border-left: 8px solid #E96B56;
+                }
+            }
+          }
+         .infos{
+            
+              .all-ul{ 
+                  margin: 0;
+                  padding: 0;
+                  display: flex;
+                  gap: 20px;
+                 
+                 
+
+                  li{
+                      a{
+                          text-decoration: none;
+                          color: #545454;
+                         
+                          &:hover{
+                           color: #E96B56;
+                          }
+                      }
+                   
+                      margin: 0;
+                      padding: 0;
+                      list-style: none;
+                      display: flex;
+                    
+                  }
+              }
+          }
+     }
+           }
+   
+#navbar{
+    
+}
+   #services{
+       width: 100%;
+       height: 200px;
+       background-color:#F7F7F7;
+       .container{
+           .service{
+               font-size: 20px;
+               font-weight: 800;
+           }
+       }
+   }
+}
+
+main{
+    #cards{
+        .container{
+           
+            .row{
+                .box{
+                    width: 400px;
+                    height: 350px;
+                    border: solid 1px gray;
+                    transition: .3s;
+                    &:hover{
+                        background-color: #E96B56;
+                        .basket{
+                            .icon{
+                                background-color: white;
+                                i{
+                                    color: #E96B56;
+                                }
+                            }
+                        .title{
+                            h2{
+                                color: white;
+                            }
+                        }
+                        .text{
+                            p{
+                                color: white;
+                            }
+                        }
+                        }
+                    }
+                
+                .basket{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .icon{
+                        
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 70px;
+                        height: 70px;
+                        background-color: #E96B56;
+                        border-radius: 6px
+                        i{
+                            color: white;
+                            font-size: 25px;
+                            box-shadow: black;
+
+                        }
+                    }
+                    .text{
+                        text-align: center;
+                    }
+                    &:hover{
+                        .icon{
+                            box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+                        }
+                    }
+                }
+                }
+
+            }
+        }
+    }
+
+    #description{
+        .container{
+            .header-one{
+
+            }
+            .row{
+                .images{
+                   img{
+                    
+                   }
+                }
+                .progress-bar{
+                  .write{
+                  padding: 0 50px;
+
+                  }
+                  .programming{
+                    display: flex;
+                    justify-content: space-between;
+                  }
+                  
+                }
+            }
+
+        }
+    }
+
+    main{
+        #cards{
+            .container{
+                .row{
+                    .box{
+                        width: 400px;
+                        height: 350px;
+                       
+                        border: solid 1px rgb(143, 139, 139);
+                        transition: .3s;
+                        &:hover{
+                            background-color: #E96B56;
+    
+                            .basket{
+                                .icon{
+                                    
+                                        background-color: white;
+                                    i{
+                                        color:#E96B56 ;
+                                    }
+                                }
+    
+                                .title{
+                                   h2{
+                                    color: white;
+                                   }
+                                }
+    
+                                .text{
+                                    p{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+    
+                        .basket{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            
+                            .icon{
+                                box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+                                display: flex;
+                            align-items: center;
+                            justify-content: center;
+                                width: 70px;
+                                height: 70px;
+                                background-color:#E96B56 ;
+                                border-radius: 8px;
+                                i{
+                                  font-size: 25px;
+                                  color: white; 
+                                  box-shadow: 0 0 black;
+                                  
+                                }
+                            }
+    
+                            .text{
+                                p{
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #skills{
+        .container{
+            .row{
+                .our{
+                    text-align: center;
+                   
+                       hr{
+                        width: 50px;
+                        height: 4px;
+                        color: #E96B56 ;
+                       }
+                    
+                }
+    
+                
+            }
+        }
+    }
+    
+    #progres-bar{
+        .images{
+            img{
+                width: 647px;
+                height: 500px;
+            }
+        }
+    
+        .title{
+            h2{
+                color: #545454;
+            }
+        }
+    
+        .progress{
+            margin: 50px 0 0 0;
+        }
+    
+        
+            span{
+                font-size: 15px;
+                font-weight: bold;
+            }
+        
+    }
+    
+    #newsletter{
+        margin-top: 70px;
+                  width: 100%;
+                    height: 250px;
+                    background-color: #404040;
+        .container{
+            .row{
+                .email{            
+                    .title{
+                       
+                        h2{
+                            font-size: 22px;
+                        }
+                        font-size: 15px;
+                        color: white;
+                    }
+            
+                    .search{
+                        form{
+                            position: relative;
+                            input{
+                                margin-top: 10px;
+                                width: 600px;
+                                border-radius: 15px;
+                                border: none;
+                                margin-right: 100px;
+                                height: 40px;
+                            }
+            
+                            button{
+                                position: absolute;
+                                top: 11px;
+                                right: 102px;
+                                width: 132px;
+                                border-radius: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+}
+
+    
+footer{
+       
+    #last{
+        width: 100%;
+        height: 300px;
+        background-color: #3B3B3B;
+
+        .container{
+            .row{
+                h4{
+                    color: white;
+                    font-size: 19px;
+                    margin-left: 12px;
+                }
+                p{
+                    color: white;
+                }
+                ul{
+                    li{
+                        font-size: 15px;
+                        list-style: none;
+                        color: white;
+                        margin: 15px 0 0 0;
+                        transition: .1s;
+                        cursor: pointer;
+                        &:hover{
+                            color: #E96B56;
+                        }
+                        i{
+                            color: #E96B56;
+                        }
+
+                        i{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+                .social{
+                    ul{
+                        li{
+                            margin: 0 0 0 10px;
+                            
+                            font-size: 30px;
+                        
+                            i{
+                                color: white;
+                                transition: .1s;
+                                margin-right: 20px;
+                                &:hover{
+                                    color: #E96B56;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+   
+    
+}

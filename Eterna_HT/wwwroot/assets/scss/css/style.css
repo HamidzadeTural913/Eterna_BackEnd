@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header #topbar {
+  width: 100%;
+  height: 40px;
+  background-color: #545454;
+  color: white;
+}
+
+header #topbar .topcon {
+  line-height: 40px;
+}
+
+header #topbar .topcon .row .progress-info ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+header #topbar .topcon .row .progress-info ul li {
+  margin: 0;
+  list-style: none;
+}
+
+header #topbar .topcon .row .progress-info ul li i {
+  color: #E96B56;
+}
+
+header #topbar .topcon .row .progress-info ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header #topbar .topcon .row .progress-infotwo ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 20px;
+}
+
+header #topbar .topcon .row .progress-infotwo ul li {
+  margin: 0;
+  list-style: none;
+}
+
+header #topbar .topcon .row .progress-infotwo ul li i {
+  color: #BABABA;
+}
+
+header #navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #navbar .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #navbar .container .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #navbar .container .line .logo h2 {
+  border-left: 8px solid #E96B56;
+}
+
+header #navbar .container .infos .all-ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+header #navbar .container .infos .all-ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #navbar .container .infos .all-ul li a {
+  text-decoration: none;
+  color: #545454;
+}
+
+header #navbar .container .infos .all-ul li a:hover {
+  color: #E96B56;
+}
+
+header #services {
+  width: 100%;
+  height: 200px;
+  background-color: #F7F7F7;
+}
+
+header #services .container .service {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+main #cards .container .row .box {
+  width: 400px;
+  height: 350px;
+  border: solid 1px gray;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main #cards .container .row .box:hover {
+  background-color: #E96B56;
+}
+
+main #cards .container .row .box:hover .basket .icon {
+  background-color: white;
+}
+
+main #cards .container .row .box:hover .basket .icon i {
+  color: #E96B56;
+}
+
+main #cards .container .row .box:hover .basket .title h2 {
+  color: white;
+}
+
+main #cards .container .row .box:hover .basket .text p {
+  color: white;
+}
+
+main #cards .container .row .box .basket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #cards .container .row .box .basket .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #E96B56;
+  border-radius: 6px i;
+  border-radius-color: white;
+  border-radius-font-size: 25px;
+  border-radius-box-shadow: black;
+}
+
+main #cards .container .row .box .basket .text {
+  text-align: center;
+}
+
+main #cards .container .row .box .basket:hover .icon {
+  -webkit-box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+          box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+main #description .container .row .progress-bar .write {
+  padding: 0 50px;
+}
+
+main #description .container .row .progress-bar .programming {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main main #cards .container .row .box {
+  width: 400px;
+  height: 350px;
+  border: solid 1px #8f8b8b;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main main #cards .container .row .box:hover {
+  background-color: #E96B56;
+}
+
+main main #cards .container .row .box:hover .basket .icon {
+  background-color: white;
+}
+
+main main #cards .container .row .box:hover .basket .icon i {
+  color: #E96B56;
+}
+
+main main #cards .container .row .box:hover .basket .title h2 {
+  color: white;
+}
+
+main main #cards .container .row .box:hover .basket .text p {
+  color: white;
+}
+
+main main #cards .container .row .box .basket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main main #cards .container .row .box .basket .icon {
+  -webkit-box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+          box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #E96B56;
+  border-radius: 8px;
+}
+
+main main #cards .container .row .box .basket .icon i {
+  font-size: 25px;
+  color: white;
+  -webkit-box-shadow: 0 0 black;
+          box-shadow: 0 0 black;
+}
+
+main main #cards .container .row .box .basket .text p {
+  text-align: center;
+}
+
+main #skills .container .row .our {
+  text-align: center;
+}
+
+main #skills .container .row .our hr {
+  width: 50px;
+  height: 4px;
+  color: #E96B56;
+}
+
+main #progres-bar .images img {
+  width: 647px;
+  height: 500px;
+}
+
+main #progres-bar .title h2 {
+  color: #545454;
+}
+
+main #progres-bar .progress {
+  margin: 50px 0 0 0;
+}
+
+main #progres-bar span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+main #newsletter {
+  margin-top: 70px;
+  width: 100%;
+  height: 250px;
+  background-color: #404040;
+}
+
+main #newsletter .container .row .email .title {
+  font-size: 15px;
+  color: white;
+}
+
+main #newsletter .container .row .email .title h2 {
+  font-size: 22px;
+}
+
+main #newsletter .container .row .email .search form {
+  position: relative;
+}
+
+main #newsletter .container .row .email .search form input {
+  margin-top: 10px;
+  width: 600px;
+  border-radius: 15px;
+  border: none;
+  margin-right: 100px;
+  height: 40px;
+}
+
+main #newsletter .container .row .email .search form button {
+  position: absolute;
+  top: 11px;
+  right: 102px;
+  width: 132px;
+  border-radius: 15px;
+}
+
+footer #last {
+  width: 100%;
+  height: 300px;
+  background-color: #3B3B3B;
+}
+
+footer #last .container .row h4 {
+  color: white;
+  font-size: 19px;
+  margin-left: 12px;
+}
+
+footer #last .container .row p {
+  color: white;
+}
+
+footer #last .container .row ul li {
+  font-size: 15px;
+  list-style: none;
+  color: white;
+  margin: 15px 0 0 0;
+  -webkit-transition: .1s;
+  transition: .1s;
+  cursor: pointer;
+}
+
+footer #last .container .row ul li:hover {
+  color: #E96B56;
+}
+
+footer #last .container .row ul li i {
+  color: #E96B56;
+}
+
+footer #last .container .row ul li i {
+  margin-right: 10px;
+}
+
+footer #last .container .row .social ul li {
+  margin: 0 0 0 10px;
+  font-size: 30px;
+}
+
+footer #last .container .row .social ul li i {
+  color: white;
+  -webkit-transition: .1s;
+  transition: .1s;
+  margin-right: 20px;
+}
+
+footer #last .container .row .social ul li i:hover {
+  color: #E96B56;
+}
+/*# sourceMappingURL=style.css.map */

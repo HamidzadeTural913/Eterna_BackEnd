@@ -1,0 +1,140 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/scss/css/style.css">
+    <title>Exam Project Practice</title>
+</head>
+
+     <header>
+      <section id="topbar">
+        <div class="container topcon">
+                 <div class="row">
+                  <div class="col-lg-6 progress-info">
+                      <ul>
+                          <li><i class="fa-solid fa-message"></i><a href="">contact@example.com</a></li>
+                      
+                          <li><i class="fa-solid fa-phone"></i>+1 5589 55488 55</li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-6 progress-infotwo">
+                     <ul>
+                         <li><i class="fa-brands fa-twitter"></i></li>
+                         <li><i class="fa-brands fa-facebook"></i></li>
+                         <li><i class="fa-brands fa-instagram"></i></li>
+                         <li><i class="fa-brands fa-linkedin"></i></li>
+                     </ul>
+                  </div>
+              </div>
+            </div>
+           
+      </section>
+      <section id="navbar">
+         
+       <div class="container d-flex justify-content-between mt-2">
+         <div class="line d-flex justify-content-between">
+            <div class="logo">
+                <h2>Hamidzade</h2>
+            </div>
+            
+         </div>
+         <div class="infos">
+            <ul class="all-ul">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Dropdown</a></li>
+               
+               
+                <li><a href="">Contact</a></li>
+            </ul>
+         </div>
+       </div>
+          
+      </section>
+      <section id="services">
+        <div class="container">
+              <div class="home">
+                <p>Home/Services</p>
+              </div>
+              <div class="service">
+                <p>Services</p>
+              </div>    
+        </div>
+            
+        </section>
+   
+    </header>
+    @RenderBody()
+     <footer>
+        <section id="last">
+           <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mt-5">
+                    <h4>USEFUL LINKS</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-angle-right"></i>Home</li>
+                        <li><i class="fa-solid fa-angle-right"></i>About Us</li>
+                        <li><i class="fa-solid fa-angle-right"></i>Services</li>
+                        <li><i class="fa-solid fa-angle-right"></i>Terms of service</li>
+                        <li><i class="fa-solid fa-angle-right"></i>Privacy policy</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <h4>OUR SERVICES</h4>
+                    <ul>
+                        <li ><i class="fa-solid fa-angle-right"></i>Web Design</li>
+                        <li><i class="fa-solid fa-angle-right"></i>
+                            Web Development</li>
+                        <li><i class="fa-solid fa-angle-right"></i>
+                            Product Management</li>
+                        <li><i class="fa-solid fa-angle-right"></i>
+                            Marketing</li>
+                        <li><i class="fa-solid fa-angle-right"></i>
+                            Graphic Design</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <h4>CONTACT US</h4>
+                    <ul>
+                        <li >A108 Adam Street</li>
+                        <li>
+                            New York, NY 535022</li>
+                        <li>
+                            United States</li>
+                        <li>
+                            Phone: +1 5589 55488 55</li>
+                        <li>Email: info@example.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <h4>About Eterna</h4>
+                   <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+
+                  <div class="social">
+                    <ul class="d-flex">
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><a href="@layoutservice.GetDatas().Result.FirstOrDefault(s=>s.Key=="Instagram").IconUrl"><i class="@layoutservice.GetDatas().Result.FirstOrDefault(s=>s.Key=="Instagram").Value"></i></a></li>
+                        <li><i class="fa-brands fa-skype"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+
+                       </ul>
+                  </div>
+                </div>
+            </div>
+           </div>
+        </section>
+          
+        
+    </footer>
+   
